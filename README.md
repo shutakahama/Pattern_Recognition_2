@@ -5,12 +5,12 @@
 ## 各ファイルの概要  
 
 ### lsr
-最小二乗回帰(Least Squares Regression)
+最小二乗回帰(Least Squares Regression)  
 ガウスカーネルモデルに対してL2正則化を用いた最小二乗回帰を行う．  
 コードでは交差確認法によって正則化パラメータとガウス幅を決定している．  
 
 ### lsm_admm
-交互方向乗数法によるL1スパース回帰(Least Squares Method with Alternating Direction Method of Multipliers)
+交互方向乗数法によるL1スパース回帰(Least Squares Method with Alternating Direction Method of Multipliers)  
 
 ### robust_regression
 ロバスト回帰  
@@ -25,8 +25,8 @@
 ./digit 以下の数字データファイルを読み込む．  
 
 ### svm
-サポートベクトルマシン(Support Vector Machine)
-劣勾配アルゴリズムを使った線形モデルに対するサポートベクトルマシン
+サポートベクトルマシン(Support Vector Machine)  
+劣勾配アルゴリズムを使った線形モデルに対するサポートベクトルマシン  
 
 ### lspc
 最小二乗確率的分類(Least Squares Probabilistic Classification)  
@@ -44,20 +44,20 @@
 データ空間で近傍にある点同士の出力が滑らかになるような制約式を加えることで，ラベルなしデータを活用する．  
 
 ### cwls
-クラス比重み付き最小二乗法(Class Weighted Least Squares method)
+クラス比重み付き最小二乗法(Class Weighted Least Squares method)  
 訓練データとテストデータでクラスごとのデータ割合が異なるような場合の転移学習の設定．  
 クラスごとの分布間距離を近似的に求め，求まったクラス比で線形モデルを重み付けする．  
 
 ### lpp
-局所性保存射影(Locality Preserving Projection)
+局所性保存射影(Locality Preserving Projection)  
 データ集合に対し類似度行列を定義し，局所性保存射影を求めることで，教師なしの次元削減を行う．  
 クラスタ構造を保持したまま分散が大きくなるような射影軸を求める．  
 
 ### fda
-フィッシャー判別分析(Fisher Discriminant Analysis)
+フィッシャー判別分析(Fisher Discriminant Analysis)  
 
 
 ### lap_eig
-ラプラス固有写像(Laplacian Eigen map)
+ラプラス固有写像(Laplacian Eigen map)  
 教師なしで非線形の次元削減をラプラス固有写像を用いて行う．  
 類似度行列の生成には最近傍類似度を用いる．  
