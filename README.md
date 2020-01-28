@@ -1,6 +1,19 @@
 # パターン認識によるデータ分析
 このリポジトリにはパターン認識を用いたデータ分析の手法の実装があります．  
+トピックは最小2乗回帰と分類，転移学習や半教師あり学習，次元削減などです．  
+
+## 実行
 各jupyter notebookは独立した手法でありセルを実行することで試すことができます．  
+```
+**requirements**
+numpy
+matplotlib
+scipy
+mpl_toolkits
+pandas
+seaborn
+sklearn
+```
 
 ## 各ファイルの概要  
 
