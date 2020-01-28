@@ -5,7 +5,7 @@
 ## 実行
 各jupyter notebookは独立した手法でありセルを実行することで試すことができます．  
 ```
-**requirements**
+## requirements
 numpy
 matplotlib
 scipy
